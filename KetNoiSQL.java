@@ -42,7 +42,7 @@ public class KetNoiSQL {
 
             Class.forName(url);
 
-            String dbUrl = "jdbc:jtds:sqlserver://DESKTOP-7181COM:1433/java2";
+            String dbUrl = "jdbc:jtds:sqlserver://DESKTOP-PIKNVLI:1433/java2";
 
             con = DriverManager.getConnection(dbUrl,"","");
 
